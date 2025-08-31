@@ -1,0 +1,24 @@
+# Core Python requirements for ICS Protocol Fuzzing Lab
+
+# Testing & QA
+pytest==8.3.3
+pytest-cov==5.0.0
+
+# Security & Analysis
+bandit==1.7.9
+safety==3.2.4
+
+# Networking & Protocols
+scapy==2.5.0
+pyModbusTCP==0.2.0
+pymodbus==3.6.9
+python-dnp3==0.5.0   # if available, otherwise replace with internal bindings
+
+# Logging & Monitoring
+requests==2.32.3
+elasticsearch==8.15.1
+
+# Utilities
+pyyaml==6.0.2
+click==8.1.7
+rich==13.8.0
