@@ -1,0 +1,39 @@
+Title,Category,Status,Notes
+Modbus TCP/RTU fuzzer,Core Deliverables,Todo,Implement in src/protocol_modules/modbus_fuzzer.py
+DNP3 fuzzer,Core Deliverables,Todo,Implement in src/protocol_modules/dnp3_fuzzer.py
+IEC 61850 fuzzer,Core Deliverables,Todo,Implement in src/protocol_modules/iec61850_fuzzer.py
+EtherNet/IP fuzzer,Core Deliverables,Todo,Implement in src/protocol_modules/enip_fuzzer.py
+Modbus simulator,Protocol Simulators,Todo,Develop simulator with config-driven YAML
+DNP3 simulator,Protocol Simulators,Todo,Develop simulator with config-driven YAML
+Config-driven protocol YAML,Protocol Simulators,Todo,Support under config/protocols/
+Logging helper,Utilities,Todo,Shared logging utilities in src/utils/logging.py
+Packet builder helper,Utilities,Todo,Utilities for crafting fuzzing packets
+Unit tests (Modbus),Testing,Todo,tests/test_modbus_fuzzer.py
+Unit tests (DNP3),Testing,Todo,tests/test_dnp3_fuzzer.py
+Unit tests (IEC61850),Testing,Todo,tests/test_iec61850_fuzzer.py
+Integration tests (traffic),Testing,Todo,Fuzz simulator and check traffic logs
+ELK validation test,Testing,Todo,Validate logs pushed into ELK stack
+CI workflow,CI/CD,Done,.github/workflows/ci.yml already created
+Coverage reporting,CI/CD,Todo,Integrate pytest-cov and upload to Codecov
+run-fuzzer.sh script,Scripts,Todo,Helper script to launch campaigns
+test-network.sh script,Scripts,Todo,Script to test connectivity
+cleanup.sh script,Scripts,Todo,Reset/teardown lab
+docker-compose.yml,Infrastructure,Todo,Docker orchestration for fuzzers/simulators
+Terraform templates,Infrastructure,Todo,Infra-as-code for Proxmox/VMs
+Ansible playbooks,Infrastructure,Todo,Provisioning automation
+Implementation plan docs,Docs,Todo,docs/implementation-plan.md
+Protocol dev guide,Docs,Todo,docs/protocol-development-guide.md
+Usage examples,Docs,Todo,docs/usage-examples.md
+Network diagram,Docs,Todo,Architecture diagram (PNG/SVG)
+Example PCAPs,Docs,Todo,Sample fuzzing traffic captures
+SECURITY.md,Security,Todo,Vulnerability disclosure process
+Firewall policy examples,Security,Todo,Default-deny configurations
+RBAC guide,Security,Todo,Role-based access examples
+CONTRIBUTING.md,Community,Todo,Contribution guidelines
+CODE_OF_CONDUCT.md,Community,Todo,Community standards
+LICENSE,Community,Todo,MIT license text
+Enable Discussions,Community,Todo,Enable GitHub Discussions
+Wireless ICS support (v2.0),Roadmap,Todo,WirelessHART and ISA100.11a
+ML anomaly detection (v2.1),Roadmap,Todo,Machine learning IDS integration
+Pentest framework integration (v2.2),Roadmap,Todo,Metasploit/other integration
+Cloud deployment (v3.0),Roadmap,Todo,Support AWS/Azure/GCP
